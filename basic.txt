@@ -1,0 +1,73 @@
+windows shell
+    cmd
+    powerShell (after windows 7)
+    gitBash
+
+Commands
+    dir
+    cd..  (change directory)
+
+    D:   (change drive)
+
+absolute vs relative
+
+    cd Users
+    cd Desktop\dummy\xyz
+
+    cd C:\Users\SKILLHUB\Desktop\
+
+    cd /        back to root directory
+
+    creating a file
+    
+    echo content of file > test.txt
+    type test.txt       show content of file
+    del test.txt        delete file
+
+    create folder 
+    mkdir deleteThis
+    emdir deleteThis
+
+    copy test2.txt other
+        copy test2 to other  folder
+    move test2.txt other
+        cut/move test2 to other  folder
+
+git
+    reposotry .git (hidden folder)
+        1 staging
+        2 commits
+
+git --version
+
+git status
+
+git init
+
+git add . (staging)
+
+git status
+
+add email and name
+
+git commit -m "initial commit"
+
+git log
+
+add another file and commit then again git log
+now we have two commits
+
+to go to the specific commit
+
+git log
+
+copy the commit id and then 
+git checkout 78787878787 (id)
+
+to get back to master branch
+git checkout master
+git log
+
+
+to see the branches 
+git branch
